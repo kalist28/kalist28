@@ -1,6 +1,18 @@
+```kotlin
+val DmitryKalistratov = human {
+    about {
+        name = "Dmitry Kalistratov"
+        role = Developer(Android, Ios)
+    }
 
+    tech {
+        day("Kotlin", "app creation")
+        night(".*".toRegex())
+    }
 
-<!---
-kalist28/kalist28 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+    links {
+        telegram = "@kalist28"
+        email = "dmitry@kalistratov.ru"
+    }
+}
+```
