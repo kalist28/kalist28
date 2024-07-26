@@ -2,7 +2,7 @@
 val DmitryKalistratov = human {
     about {
         name = "Dmitry Kalistratov"
-        role = Developer(Android, Ios)
+        role = Developer(Android, iOS)
     }
 
     tech {
